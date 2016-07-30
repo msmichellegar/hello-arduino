@@ -47,7 +47,6 @@ board.on("ready", function() {
         }
     }
 
-    next();
     matrix.draw(heart);
 
     this.repl.inject({
